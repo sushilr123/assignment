@@ -6,19 +6,8 @@ A Node.js/Express API endpoint to retrieve and search topics from a JSON file. T
 
 **Repository Link:** https://github.com/sushilr123/assignment.git
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [API Documentation](#api-documentation)
-- [Testing the API](#testing-the-api)
-- [Error Handling](#error-handling)
-- [Video Demonstration](#video-demonstration)
-
+**Video Link:** 
+https://drive.google.com/file/d/1BiAA5b4CovygoVLfm0IVmIV4VxhYF8SB/view?usp=sharing
 ## ✨ Features
 
 - ✅ RESTful API endpoint for topic retrieval
@@ -257,38 +246,6 @@ GET /api/topics?search=database&sort=name
 
 **Status Code:** `200 OK`
 
----
-
-## 🧪 Testing the API
-
-### Using cURL (Command Line)
-
-```bash
-# Get all topics
-curl http://localhost:3000/api/topics
-
-# Search topics
-curl "http://localhost:3000/api/topics?search=node"
-
-# Sort topics
-curl "http://localhost:3000/api/topics?sort=name"
-
-# Search and sort
-curl "http://localhost:3000/api/topics?search=programming&sort=name"
-```
-
-### Using PowerShell
-
-```powershell
-# Get all topics
-Invoke-RestMethod -Uri "http://localhost:3000/api/topics" -Method Get
-
-# Search topics
-Invoke-RestMethod -Uri "http://localhost:3000/api/topics?search=node" -Method Get
-
-# Sort topics
-Invoke-RestMethod -Uri "http://localhost:3000/api/topics?sort=name" -Method Get
-```
 
 ### Using Browser
 
@@ -298,12 +255,6 @@ Simply open your browser and navigate to:
 - `http://localhost:3000/api/topics?search=javascript`
 - `http://localhost:3000/api/topics?sort=name`
 
-### Using Postman
-
-1. Create a new GET request
-2. Enter URL: `http://localhost:3000/api/topics`
-3. Add query parameters as needed (`search`, `sort`)
-4. Click Send
 
 ## 🚨 Error Handling
 
@@ -364,18 +315,6 @@ The API implements comprehensive error handling:
 }
 ```
 
-## 🎬 Video Demonstration
-
-**Video Link:** [Add your 2-minute video demonstration link here]
-
-The video demonstrates:
-
-1. Project structure overview
-2. Code walkthrough
-3. API endpoint testing
-4. Search functionality demonstration
-5. Sort functionality demonstration
-6. Error handling scenarios
 
 ## 🛠️ Step-by-Step Workflow Process
 
@@ -440,19 +379,3 @@ The video demonstrates:
 | 500 status code (server error)    | ✅     | `server.js` line 59-63         |
 | 5+ topics in JSON file            | ✅     | 10 topics in `topics.json`     |
 | Sort by name (bonus)              | ✅     | `server.js` line 49-51         |
-
-## 🤝 Contributing
-
-This is a case study project. For educational purposes only.
-
-## 📝 License
-
-ISC
-
-## 👤 Author
-
-[Your Name]
-
----
-
-**Note:** Remember to add your GitHub repository link and video demonstration link after uploading to GitHub!

@@ -3,3 +3,10 @@ node_modules/
 
 # Environment variables
 .env
+
+# Video files (too large for GitHub - share via link instead)
+*.mp4
+*.avi
+*.mov
+*.mkv
+video.*
