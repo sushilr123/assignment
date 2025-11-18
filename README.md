@@ -4,7 +4,7 @@ A Node.js/Express API endpoint to retrieve and search topics from a JSON file. T
 
 ## 🚀 GitHub Repository
 
-**Repository Link:** [Add your GitHub repository link here after upload]
+**Repository Link:** https://github.com/sushilr123/assignment.git
 
 ## 📋 Table of Contents
 
@@ -58,7 +58,7 @@ Follow these steps to set up the project on your local machine:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/sushilr123/assignment.git
 cd assignment
 ```
 
