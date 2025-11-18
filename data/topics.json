@@ -1,0 +1,54 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "name": "JavaScript Fundamentals",
+      "category": "Programming"
+    },
+    {
+      "id": 2,
+      "name": "Node.js Backend Development",
+      "category": "Programming"
+    },
+    {
+      "id": 3,
+      "name": "React Frontend",
+      "category": "Programming"
+    },
+    {
+      "id": 4,
+      "name": "Database Design",
+      "category": "Database"
+    },
+    {
+      "id": 5,
+      "name": "RESTful API Design",
+      "category": "Architecture"
+    },
+    {
+      "id": 6,
+      "name": "Docker Containerization",
+      "category": "DevOps"
+    },
+    {
+      "id": 7,
+      "name": "CI/CD Pipelines",
+      "category": "DevOps"
+    },
+    {
+      "id": 8,
+      "name": "MongoDB Basics",
+      "category": "Database"
+    },
+    {
+      "id": 9,
+      "name": "TypeScript Advanced",
+      "category": "Programming"
+    },
+    {
+      "id": 10,
+      "name": "Cloud Computing AWS",
+      "category": "Cloud"
+    }
+  ]
+}
